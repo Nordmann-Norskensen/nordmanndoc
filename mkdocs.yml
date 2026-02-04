@@ -1,0 +1,22 @@
+site_name: Nordmann Dokumentasjon
+site_url: https://Nordmann-Norskensen.github.io/Nordmanndoc
+
+theme:
+  name: material
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
